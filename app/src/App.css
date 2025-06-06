@@ -10,8 +10,3 @@
   --color-text-sec: #a3b2a8;
   --color-bor: #2e4038;
 }
-
-body {
-  background-color: var(--color-bg);
-  color: var(--color-text-pri);
-}
