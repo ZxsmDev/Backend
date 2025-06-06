@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Elden Ring",
+    "price": 59.99,
+    "genres": ["Action", "RPG", "Fantasy"],
+    "starRating": 4.8,
+    "rating": "Mature",
+    "description": "A vast open-world RPG from the creators of Dark Souls. Journey through the Lands Between in a brutal and mysterious fantasy world shaped by legendary author George R.R. Martin.",
+    "banner": "https://picsum.photos/300/200.jpg"
+  },
+  {
+    "name": "Baldur's Gate 3",
+    "price": 69.99,
+    "genres": ["RPG", "Adventure", "Turn-Based"],
+    "starRating": 4.9,
+    "rating": "Mature",
+    "description": "A rich narrative-driven RPG set in the Dungeons & Dragons universe. Command your party, make impactful decisions, and shape the fate of the Forgotten Realms in a sprawling fantasy epic.",
+    "banner": "https://picsum.photos/300/200.jpg"
+  },
+  {
+    "name": "Split Fiction",
+    "price": 24.99,
+    "genres": ["Puzzle", "Indie", "Narrative"],
+    "starRating": 4.2,
+    "rating": "Teen",
+    "description": "An indie narrative puzzle game where reality splits at every decision. Navigate a fractured world of parallel stories and piece together the truth behind your identity.",
+    "banner": "https://picsum.photos/300/200.jpg"
+  },
+  {
+    "name": "Shadow Recon: Delta Protocol",
+    "price": 39.99,
+    "genres": ["Shooter", "Tactical", "Sci-Fi"],
+    "starRating": 2.9,
+    "rating": "Mature",
+    "description": "A futuristic tactical shooter with repetitive missions, clunky AI, and limited multiplayer support. Launched with high ambitions but fell short of expectations.",
+    "banner": "https://picsum.photos/300/200.jpg"
+  },
+  {
+    "name": "Fury Kart Drift",
+    "price": 14.99,
+    "genres": ["Racing", "Arcade", "Multiplayer"],
+    "starRating": 3.1,
+    "rating": "Everyone",
+    "description": "A chaotic arcade kart racer with colorful tracks and exaggerated powerups. Lacks depth and polish but can be entertaining with friends in short bursts.",
+    "banner": "https://picsum.photos/300/200.jpg"
+  }
+]
