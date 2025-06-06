@@ -18,7 +18,8 @@
     stroke-linecap="round"
     stroke-linejoin="round"
   />
-
+</svg>
+![Logo](https://github.com/user-attachments/assets/aa7e3f4e-6b86-453e-8ded-64e093cb9d06)
 
 A responsive, full-stack game library platform for browsing games, viewing reviews, reading guides, and managing favorites — built with React, Express, and MySQL.
 
