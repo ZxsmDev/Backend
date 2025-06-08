@@ -61,42 +61,42 @@ export default function GameCardSkeleton({
           alt="Banner"
         />
 
-        <Tooltip
-          title={name.length > 15 ? name : ""}
-          placement="top"
-          arrow
-          followCursor
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            px: 2,
+            pt: 2,
+          }}
         >
-          <Box
-            sx={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "space-between",
-              px: 2,
-              pt: 2,
-            }}
+          <Tooltip
+            title={name.length > 15 ? name : ""}
+            placement="top"
+            arrow
+            followCursor
           >
             <Typography variant="h6" noWrap sx={{ fontWeight: "bold" }}>
               {name.length > 15 ? `${name.slice(0, 15)}...` : name}
             </Typography>
+          </Tooltip>
 
-            <Typography
-              variant="h6"
-              noWrap
-              sx={{
-                color: "text.secondary",
-                fontWeight: "medium",
-              }}
-            >
-              ${price}
-            </Typography>
-          </Box>
-          <Box sx={{ mt: 0.5, ml: 2 }}>
-            {genres.map((genre, i) => (
-              <Chip key={i} label={genre} size="small" sx={{ mr: 0.5 }} />
-            ))}
-          </Box>
-        </Tooltip>
+          <Typography
+            variant="h6"
+            noWrap
+            sx={{
+              color: "text.secondary",
+              fontWeight: "medium",
+            }}
+          >
+            ${price}
+          </Typography>
+        </Box>
+        <Box sx={{ mt: 0.5, ml: 2 }}>
+          {genres.map((genre, i) => (
+            <Chip key={i} label={genre} size="small" sx={{ mr: 0.5 }} />
+          ))}
+        </Box>
 
         <Box sx={{ position: "relative", flexGrow: 1 }}>
           <CardContent sx={{ flexGrow: 1 }}>

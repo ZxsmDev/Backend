@@ -101,7 +101,7 @@ export default function Navbar({ toggleDrawer, drawerOpen, drawerWidth }) {
                 width: 40,
                 transition: "transform 0.3s ease",
                 "&:hover": {
-                  transform: "rotate(10deg) scale(1.1)",
+                  transform: "rotate(10deg) scale(1.2)",
                   cursor: "pointer",
                 },
               }}
@@ -116,7 +116,11 @@ export default function Navbar({ toggleDrawer, drawerOpen, drawerWidth }) {
                 color: "text.primary",
                 textTransform: "uppercase",
                 userSelect: "none",
+                "&:hover": {
+                  cursor: "pointer",
+                },
               }}
+              onClick={() => window.location.reload()}
             >
               SavePoint
             </Typography>
